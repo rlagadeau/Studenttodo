@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Student Todo</string>
+    <string name="emailLogin">Email:</string>
+    <string name="passwordLogin">Password:</string>
+    <string name="loginBtn">Login</string>
+    <string name="loginSignUp">No account? Sign up here</string>
+    <string name="navHeaderText">What are my hours</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="birthday">Date of birth:yyyy-mm-dd</string>
+    <string name="address">Address</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="help">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string name="hours">Hour(s)</string>
+    <string name="school">School</string>
+    <string name="location">Location</string>
+    <string name="subject">Subject</string>
+    <string name="amountstuds">Amount Students</string>
+    <string name="btn_submit">Submit</string>
+    <string name="settings">No settings available for this version of the application.</string>
+</resources>

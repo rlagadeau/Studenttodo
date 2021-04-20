@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <EditText
+        android:id="@+id/hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hours"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="15dp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/school"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hour"
+        android:ems="10"
+        android:hint="@string/school"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/school"
+        android:ems="10"
+        android:hint="@string/location"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:ems="10"
+        android:hint="@string/subject"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/amountstuds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject"
+        android:ems="10"
+        android:hint="@string/amountstuds"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amountstuds"
+        android:layout_centerHorizontal="true"
+        android:width="220dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/btn_submit"
+        android:onClick="SaveHourRegInfo"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_marginBottom="55dp"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/submitbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/date_fhr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_below="@id/answer"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
